@@ -1,29 +1,29 @@
 // ------------- FILE HEADER -------------
-// Author ✅: 
-// Assignment ✅:
-// Date ✅:
-// Citations: 
+// Author ✅: Rylee Blaubergs
+// Assignment ✅: 2
+// Date ✅: 10/6/2025
+// Citations: zyBooks
 
 
 // ------------- ZYBOOKS SCORES -------------
-// Chapter ✅: 
-// Participation ✅: 
-// Challenge ✅:
-// Labs ✅:
+// Chapter ✅: 2
+// Participation ✅: 50%
+// Challenge ✅: 46%
+// Labs ✅: 0%
 
 
 // ------------- DISCORD POSTS -------------
 // https://discord.com/invite/URYKKf8YHm
-// Count ✅:
+// Count ✅: 0
 // Links (Optional): 
 
 
 // ------------- DESIGN DOCUMENT -------------
-// A. INPUT ✅: 
-// B. OUTPUT ✅:
-// C. CALCULATIONS ✅:
+// A. INPUT ✅: number of oreos to calculate to calories and servings 
+// B. OUTPUT ✅: the number of servings and calories of oreos inputted (both as doubles)
+// C. CALCULATIONS ✅: 5 oreos per serving and 160 calories per serving
 // D. LOGIC and ALGORITHMS ✅:
-//    (Optional) flow chart link or file name: 
+
 
 
 // ------------- TESTING -------------
