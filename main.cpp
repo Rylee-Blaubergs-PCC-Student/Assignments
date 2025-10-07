@@ -8,7 +8,7 @@
 // ------------- ZYBOOKS SCORES -------------
 // Chapter ✅: 2
 // Participation ✅: 50%
-// Challenge ✅: 46%
+// Challenge ✅: 49%
 // Labs ✅: 0%
 
 
