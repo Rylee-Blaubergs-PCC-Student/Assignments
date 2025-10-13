@@ -1,15 +1,15 @@
 // ------------- FILE HEADER -------------
 // Author ✅: Rylee Blaubergs
-// Assignment ✅: 
-// Date ✅: 
-// Citations: zyBooks
+// Assignment ✅: 3
+// Date ✅: 10/13/25
+// Citations: zyBooks and example if needed
 
 
 // ------------- ZYBOOKS SCORES -------------
-// Chapter ✅: 
-// Participation ✅:
-// Challenge ✅: 
-// Labs ✅: 
+// Chapter ✅: 3
+// Participation ✅: 23%
+// Challenge ✅: 31%
+// Labs ✅: 0%
 
 
 // ------------- DISCORD POSTS -------------
@@ -19,8 +19,8 @@
 
 
 // ------------- DESIGN DOCUMENT -------------
-// A. INPUT ✅: 
-// B. OUTPUT ✅: 
+// A. INPUT ✅:  y or n to start and enter number of people to calculate
+// B. OUTPUT ✅: the total price based on the ticket type and number of tickets and if the user qualifies for a free ticket
 // C. CALCULATIONS ✅: 
 // D. LOGIC and ALGORITHMS ✅:
 
