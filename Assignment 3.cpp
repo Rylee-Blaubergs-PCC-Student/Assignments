@@ -2,7 +2,7 @@
 // Author ✅: Rylee Blaubergs
 // Assignment ✅: 3
 // Date ✅: 10/13/25
-// Citations: zyBooks and example if needed
+// Citations: zyBooks, example code, and sample code
 
 
 // ------------- ZYBOOKS SCORES -------------
