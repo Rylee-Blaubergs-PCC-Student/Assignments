@@ -1,12 +1,12 @@
 // ------------- FILE HEADER -------------
 // Author ✅: Rylee Blaubergs
-// Assignment ✅: 
-// Date ✅: 
-// Citations: zyBooks
+// Assignment ✅: 4
+// Date ✅: 10/20/25
+// Citations: zyBooks, examples
 
 
 // ------------- ZYBOOKS SCORES -------------
-// Chapter ✅: 
+// Chapter ✅: 4
 // Participation ✅:
 // Challenge ✅: 
 // Labs ✅: 
