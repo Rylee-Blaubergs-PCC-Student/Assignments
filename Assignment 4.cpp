@@ -40,6 +40,13 @@ using namespace std;
 // https://en.cppreference.com/w/cpp/language/main_function.html
 int main(int argc, char* argv[]) {
 
+string finalText = " ";
+string phrase1 = " ";
+string phrase2 = " ";
+string tmpStr = " ";
+
+cout << "Welcome to my Phrases and Subphrases Program!" << endl;
+
    return 0;
 }
 
