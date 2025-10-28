@@ -34,6 +34,7 @@
 // ------------- CODE -------------
 #include <iostream>
 #include <iomanip>
+#inculde <string>
 using namespace std;
 
 // Main function
