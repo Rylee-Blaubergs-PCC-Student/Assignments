@@ -48,8 +48,8 @@ string tmpStr = " ";
 int index1 = 0;
 int index2 = 0;
 
-
 cout << "Welcome to my Phrases and Subphrases Program!" << endl;
+cout << endl;
 
 cout << "Enter Phrase 1: ";
 getline(cin, phrase1);
@@ -67,7 +67,6 @@ if (phrase1 == phrase2) {
     cout << "Both phrases match" << endl;
     }
 
-
 if (index1 != string::npos) {
     cout << phrase2 << " is found in " << phrase1 << endl;
     cout << phrase1.substr(index1) << endl;
@@ -82,8 +81,8 @@ if (index1 != string::npos) {
 
 cout << endl;
 cout << "Thank you for using my program!" << endl;
-    
 }
+
 
 // Function implementations (if any)
 
