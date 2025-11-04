@@ -34,11 +34,10 @@
 // ------------- CODE -------------
 #include <iostream>
 #include <iomanip>
-#inculde <string>
+#include <string>
+
 using namespace std;
 
-// Main function
-// https://en.cppreference.com/w/cpp/language/main_function.html
 int main(int argc, char* argv[]) {
 
 string phrase1 = " ";
@@ -68,19 +67,22 @@ if (phrase1 == phrase2) {
     cout << "Both phrases match" << endl;
     }
 
+
 if (index1 != string::npos) {
-    cout << "Found phrase 2 in phrase 1." << endl;
+    cout << phrase2 << " is found in " << phrase1 << endl;
     cout << phrase1.substr(index1) << endl;
     
 } else if (index2 != string::npos) {
-    cout << "Found phrase 1 in phrase 2." << endl;
+    cout << phrase1 << " is found in " << phrase2 << endl;
     cout << phrase2.substr(index2) << endl;  
     
 } else {
    cout << "No match" << endl;    
 }
 
-   return 0;
+cout << endl;
+cout << "Thank you for using my program!" << endl;
+    
 }
 
 // Function implementations (if any)
