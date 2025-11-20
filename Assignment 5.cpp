@@ -109,18 +109,18 @@ deliveryCost = (costOfPizzas + tax) * DELIVERY_FEE;
 totalCost = costOfPizzas + tax + deliveryCost;
 
 // echo calculations
-cout << numPizzas << endl;
-cout << costOfPizzas << endl;
-cout << tax << endl;
-cout << deliveryCost << endl;
-cout << totalCost << endl;
+cout << "Number of Pizzas: " << numPizzas << endl;
+cout << "Cost of pizzas: $" << costOfPizzas << endl;
+cout << "Tax: $" << tax << endl;
+cout << "Delivery: $" << deliveryCost << endl;
+cout << "Total cost: $" << totalCost << endl;
 
 // update final totals
 totalNumPizza += numPizzas;
-if (maxNumPeople < numPeople) {
+if (numPeople > maxNumPeople) {
  maxNumPeople = numPeople;   
 }
-if (maxCostPizza < totalCost) {
+if (totalCost > maxCostPizza) {
  maxCostPizza = totalCost;   
 }
 
