@@ -39,8 +39,8 @@ using namespace std;
 
 // Constants
 const int SLICES_PER_PIZZA = 8;
-const double TAX = 1.07;            // 7%
-const double DELIVERY_FEE = 1.20;   // 20%
+const double TAX = 0.07;            // 7%
+const double DELIVERY_FEE = 0.20;   // 20%
 
 
 
@@ -49,16 +49,22 @@ int main() {
 // input values
 int numPeople = 0;
 double averageNumSlices = 0.0;
-double costOfPizza = 0.0;
+double pizzaCost = 0.0;
 string done = "y"; 
 
 // output values
 int numPizzas = 0;
-double costOfPizza = 0.0;
+double costOfPizzas = 0.0;
 double tax = 0.0;
 double deliveryCost = 0.0;
 double totalCost = 0.0;
 
+// final outputs
+int entries = 0;
+int totalNumPizza = 0;
+int maxNumPeople = 0;
+double maxCostPizza = 0.0;
+double averageNumPizza = 0.0;
 
 
 // print welcome message
@@ -70,11 +76,21 @@ cout << fixed << setprecision(2);
 
 // set do while loop
 do {
+entries++;
+
 cout << "Enter the number of people, average number of slices per person, and the cost of a pizza separated by a space: ";
 cin >> numPeople;
 cin >> averageNumSlices;
-cin >> costOfPizza;
+cin >> pizzaCost;
+cout << endl;
 
+numPizzas = numPeople / averageNumSlices;
+costOfPizzas = numPizzas * pizzaCost;
+tax = costOfPizzas * TAX;
+
+cout << numPizzas << endl;
+cout << costOfPizzas << endl;
+cout << tax << endl;
 
 
 
@@ -83,6 +99,10 @@ cout << endl;
 cout << "Do you want to enter more (y/n): ";
 cin >> done;
 } while (done != "n");
+
+// print totals
+cout << "Number of entries: " << entries << endl;
+
 
 //print goodbye message
 cout << endl;
