@@ -61,7 +61,7 @@ double deliveryCost = 0.0;
 double totalCost = 0.0;
 
 // other values
-double slices = 0.0
+double slices = 0.0;
 double fractionalPizza = 0.0;
 
 // final outputs
