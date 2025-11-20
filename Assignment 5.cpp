@@ -109,11 +109,11 @@ deliveryCost = (costOfPizzas + tax) * DELIVERY_FEE;
 totalCost = costOfPizzas + tax + deliveryCost;
 
 // echo calculations
-cout << "Number of Pizzas: " << numPizzas << endl;
-cout << "Cost of pizzas: $" << costOfPizzas << endl;
-cout << "Tax: $" << tax << endl;
-cout << "Delivery: $" << deliveryCost << endl;
-cout << "Total cost: $" << totalCost << endl;
+cout << setw(18) << left << "Number of Pizzas:" <<      setw(8) << right << numPizzas << endl;
+cout << setw(18) << left << "Cost of pizzas:" << "$" << setw(7) << right << costOfPizzas << endl;
+cout << setw(18) << left << "Tax:" <<            "$" << setw(7) << right << tax << endl;
+cout << setw(18) << left << "Delivery:" <<       "$" << setw(7) << right << deliveryCost << endl;
+cout << setw(18) << left << "Total cost:" <<     "$" << setw(7) << right << totalCost << endl;
 
 // update final totals
 totalNumPizza += numPizzas;
