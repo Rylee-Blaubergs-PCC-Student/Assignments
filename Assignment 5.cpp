@@ -36,13 +36,22 @@
 #include <iomanip>
 using namespace std;
 
-// Main function
-// https://en.cppreference.com/w/cpp/language/main_function.html
-int main(int argc, char* argv[]) {
+// Constants
+const int SLICES_PER_PIZZA = 8;
+const double TAX = 1.07;            // 7%
+const double DELIVERY_FEE = 1.20;   // 20%
+
+
+
+int main() {
+
+
+
+
+
 
    return 0;
 }
-
 // Function implementations (if any)
 
 
