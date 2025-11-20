@@ -93,27 +93,42 @@ cout << endl;
 
 // calculate the number of slices total
 slices = numPeople * averageNumSlices;
+
 // turn total slices into number of pizzas
 fractionalPizza = slices / SLICES_PER_PIZZA;
+
 // round amount of pizzas up
 numPizzas = ceil(fractionalPizza);
 
+
 costOfPizzas = numPizzas * pizzaCost;
 tax = costOfPizzas * TAX;
-
+deliveryCost = costOfPizzas * DELIVERY_FEE;
 
 // echo calculations
 cout << numPizzas << endl;
 cout << costOfPizzas << endl;
 cout << tax << endl;
+cout << deliveryCost << endl;
+cout << totalCost << endl;
 
-
+// update final totals
+totalNumPizza += numPizzas;
+if (maxNumPeople < numPeople) {
+ maxNumPeople = numPeople;   
+}
+if (maxCostPizza < totalCost) {
+ maxCostPizza = totalCost;   
+}
 
 // ask user if they want to continue adding entries
 cout << endl;
 cout << "Do you want to enter more (y/n): ";
 cin >> done;
 } while (done != "n");
+
+// calculate average number of pizza
+averageNumPizza = totalNumPizza / entries;
 
 // print totals
 cout << "Number of entries: " << entries << endl;
