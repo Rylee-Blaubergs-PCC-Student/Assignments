@@ -76,25 +76,30 @@ cout << fixed << setprecision(2);
 
 // set do while loop
 do {
+// add to total entries
 entries++;
 
+// prompt user input
 cout << "Enter the number of people, average number of slices per person, and the cost of a pizza separated by a space: ";
 cin >> numPeople;
 cin >> averageNumSlices;
 cin >> pizzaCost;
 cout << endl;
 
+// calculations 
 numPizzas = numPeople / averageNumSlices;
 costOfPizzas = numPizzas * pizzaCost;
 tax = costOfPizzas * TAX;
 
+
+// echo calculations
 cout << numPizzas << endl;
 cout << costOfPizzas << endl;
 cout << tax << endl;
 
 
 
-
+// ask user if they want to continue adding entries
 cout << endl;
 cout << "Do you want to enter more (y/n): ";
 cin >> done;
