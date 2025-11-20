@@ -46,15 +46,21 @@ const double DELIVERY_FEE = 1.20;   // 20%
 
 int main() {
 
+// input values
 int numPeople = 0;
 double averageNumSlices = 0.0;
 double costOfPizza = 0.0;
 string done = "y"; 
-   
+
+// output values
+
+
+
+// print welcome message
 cout << "Welcome to my Pizza Party Statistics program!" << endl;
 cout << endl;
 
-
+// set do while loop
 do {
 cout << "Enter the number of people, average number of slices per person, and the cost of a pizza separated by a space: ";
 cin >> numPeople;
@@ -70,6 +76,7 @@ cout << "Do you want to enter more (y/n): ";
 cin >> done;
 } while (done != "n");
 
+//print goodbye message
 cout << endl;
 cout << "Thank you for using my program!" << endl;
 
