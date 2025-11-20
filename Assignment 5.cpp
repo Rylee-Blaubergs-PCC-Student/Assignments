@@ -35,6 +35,7 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
+#include <cmath>
 using namespace std;
 
 // Constants
@@ -58,6 +59,10 @@ double costOfPizzas = 0.0;
 double tax = 0.0;
 double deliveryCost = 0.0;
 double totalCost = 0.0;
+
+// other values
+double slices = 0.0
+double fractionalPizza = 0.0;
 
 // final outputs
 int entries = 0;
@@ -86,8 +91,13 @@ cin >> averageNumSlices;
 cin >> pizzaCost;
 cout << endl;
 
-// calculations 
-numPizzas = numPeople / averageNumSlices;
+// calculate the number of slices total
+slices = numPeople * averageNumSlices;
+// turn total slices into number of pizzas
+fractionalPizza = slices / SLICES_PER_PIZZA;
+// round amount of pizzas up
+numPizzas = ceil(fracionalPizza);
+
 costOfPizzas = numPizzas * pizzaCost;
 tax = costOfPizzas * TAX;
 
