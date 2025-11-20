@@ -32,8 +32,6 @@
 
 
 // ------------- CODE -------------
-#include <iostream>
-#include <iomanip>
 #include <string>
 using namespace std;
 
@@ -53,19 +51,23 @@ string done = "y";
    
 cout << "Welcome to my Pizza Party Statistics program!" << endl;
 cout << endl;
+
+
+do {
 cout << "Enter the number of people, average number of slices per person, and the cost of a pizza separated by a space: ";
 cin >> numPeople;
 cin >> averageNumSlices;
 cin >> costOfPizza;
 
+cout << numPeople << endl;
+cout << averageNumSlices << endl;
+cout << costOfPizza;
 
-   
-do {
-
-
-
-
+cout << "Do you want to enter more (y/n): ";
+cin >> done;
 } while (done != n);
+
+
 
 
    return 0;
