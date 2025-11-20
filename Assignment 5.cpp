@@ -103,7 +103,7 @@ numPizzas = ceil(fractionalPizza);
 // calculate the rest
 costOfPizzas = numPizzas * pizzaCost;
 tax = costOfPizzas * TAX;
-deliveryCost = costOfPizzas * DELIVERY_FEE;
+deliveryCost = (costOfPizzas + tax) * DELIVERY_FEE;
 
 // calculate total amount for current entry
 totalCost = costOfPizzas + tax + deliveryCost;
