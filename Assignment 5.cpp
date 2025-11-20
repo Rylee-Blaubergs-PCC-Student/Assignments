@@ -32,6 +32,8 @@
 
 
 // ------------- CODE -------------
+#include <iostream>
+#include <iomanip>
 #include <string>
 using namespace std;
 
@@ -61,11 +63,12 @@ cin >> costOfPizza;
 
 cout << numPeople << endl;
 cout << averageNumSlices << endl;
-cout << costOfPizza;
+cout << costOfPizza << endl;
 
+cout << endl;
 cout << "Do you want to enter more (y/n): ";
 cin >> done;
-} while (done != n);
+} while (done != "n");
 
 
 
