@@ -61,16 +61,17 @@ cin >> numPeople;
 cin >> averageNumSlices;
 cin >> costOfPizza;
 
-cout << numPeople << endl;
-cout << averageNumSlices << endl;
-cout << costOfPizza << endl;
+
+
+
 
 cout << endl;
 cout << "Do you want to enter more (y/n): ";
 cin >> done;
 } while (done != "n");
 
-
+cout << endl;
+cout << "Thank you for using my program!" << endl;
 
 
    return 0;
