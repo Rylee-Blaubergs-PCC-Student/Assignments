@@ -34,6 +34,7 @@
 // ------------- CODE -------------
 #include <iostream>
 #include <iomanip>
+#include <string>
 using namespace std;
 
 // Constants
@@ -45,9 +46,26 @@ const double DELIVERY_FEE = 1.20;   // 20%
 
 int main() {
 
+int numPeople = 0;
+double averageNumSlices = 0.0;
+double costOfPizza = 0.0;
+string done = "y"; 
+   
+cout << "Welcome to my Pizza Party Statistics program!" << endl;
+cout << endl;
+cout << "Enter the number of people, average number of slices per person, and the cost of a pizza separated by a space: ";
+cin >> numPeople;
+cin >> averageNumSlices;
+cin >> costOfPizza;
+
+
+   
+do {
 
 
 
+
+} while (done != n);
 
 
    return 0;
