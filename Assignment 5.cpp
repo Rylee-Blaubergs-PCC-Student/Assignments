@@ -100,10 +100,13 @@ fractionalPizza = slices / SLICES_PER_PIZZA;
 // round amount of pizzas up
 numPizzas = ceil(fractionalPizza);
 
-
+// calculate the rest
 costOfPizzas = numPizzas * pizzaCost;
 tax = costOfPizzas * TAX;
 deliveryCost = costOfPizzas * DELIVERY_FEE;
+
+// calculate total amount for current entry
+totalCost = costOfPizzas + tax + deliveryCost;
 
 // echo calculations
 cout << numPizzas << endl;
