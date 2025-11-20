@@ -53,12 +53,20 @@ double costOfPizza = 0.0;
 string done = "y"; 
 
 // output values
+int numPizzas = 0;
+double costOfPizza = 0.0;
+double tax = 0.0;
+double deliveryCost = 0.0;
+double totalCost = 0.0;
 
 
 
 // print welcome message
 cout << "Welcome to my Pizza Party Statistics program!" << endl;
 cout << endl;
+
+// set doubles to the second decimal place
+cout << fixed << setprecision(2);
 
 // set do while loop
 do {
