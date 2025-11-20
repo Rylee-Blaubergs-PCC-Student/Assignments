@@ -96,7 +96,7 @@ slices = numPeople * averageNumSlices;
 // turn total slices into number of pizzas
 fractionalPizza = slices / SLICES_PER_PIZZA;
 // round amount of pizzas up
-numPizzas = ceil(fracionalPizza);
+numPizzas = ceil(fractionalPizza);
 
 costOfPizzas = numPizzas * pizzaCost;
 tax = costOfPizzas * TAX;
