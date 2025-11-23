@@ -134,7 +134,11 @@ cin >> done;
 averageNumPizza = totalNumPizza / entries;
 
 // print totals
-cout << "Number of entries: " << entries << endl;
+cout <<  "Number of Entries: " << entries << endl;
+cout <<  "Total number of pizzas: "  << totalNumPizza << endl;
+cout <<  "Average number of pizzas: " << averageNumPizza << endl;
+cout <<  "Maximum number of people: " << maxNumPeople << endl;
+cout <<  "Maximum cost of pizzas: " << maxCostPizza << endl;
 
 
 //print goodbye message
