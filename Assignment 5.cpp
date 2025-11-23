@@ -138,7 +138,7 @@ cout <<  "Number of Entries: " << entries << endl;
 cout <<  "Total number of pizzas: "  << totalNumPizza << endl;
 cout <<  "Average number of pizzas: " << averageNumPizza << endl;
 cout <<  "Maximum number of people: " << maxNumPeople << endl;
-cout <<  "Maximum cost of pizzas: " << maxCostPizza << endl;
+cout <<  "Maximum cost of pizzas: $" << maxCostPizza << endl;
 
 
 //print goodbye message
@@ -171,9 +171,41 @@ D. LOGIC and ALGORITHMS
 
 
 SAMPLE RUNS:
+Welcome to my Pizza Party Statistics program!
 
+Enter the number of people, average number of slices per person, and the cost of a pizza separated by a space: 10 2.6 10.50
 
+Number of Pizzas:        4
+Cost of pizzas:   $  42.00
+Tax:              $   2.94
+Delivery:         $   8.99
+Total cost:       $  53.93
 
+Do you want to enter more (y/n): y
+Enter the number of people, average number of slices per person, and the cost of a pizza separated by a space: 9 2.5 10.95
 
+Number of Pizzas:        3
+Cost of pizzas:   $  32.85
+Tax:              $   2.30
+Delivery:         $   7.03
+Total cost:       $  42.18
+
+Do you want to enter more (y/n): y
+Enter the number of people, average number of slices per person, and the cost of a pizza separated by a space: 14 3.2 14.95
+
+Number of Pizzas:        6
+Cost of pizzas:   $  89.70
+Tax:              $   6.28
+Delivery:         $  19.20
+Total cost:       $ 115.17
+
+Do you want to enter more (y/n): n
+Number of Entries: 3
+Total number of pizzas: 13
+Average number of pizzas: 4.00
+Maximum number of people: 14
+Maximum cost of pizzas: 115.17
+
+Thank you for using my program!
 
 */
