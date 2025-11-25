@@ -34,14 +34,55 @@
 // ------------- CODE -------------
 #include <iostream>
 #include <iomanip>
+#include <string>
+
 using namespace std;
 
-// Main function
-// https://en.cppreference.com/w/cpp/language/main_function.html
 int main() {
 
+// Welcome message
+cout << "Welcome to my Coffee/Tea Vending Machine!" << endl << endl;
 
-  
+
+// Declare input values
+int coins = 0, amountDrinks = 0;
+string option = '';
+
+
+// Declare output values
+double amountCoins = 0.0;
+double totalBalance = 0;
+double totalCost = 0;
+
+//set precision 0.00
+cout << fixed << setprecision(2);
+
+do {
+// prompt user for coins
+while (coins != 0) {
+   cout << "Enter coins - 5, 10, or 25 only: ";
+   cin >> coins;
+   if (coins == 5 || coins == 10 || coins == 25) {
+      amountCoins += coins;
+      cout << "Enter coins - 5, 10, or 25 only: ";
+      cin >> coins;
+      
+   } else {
+     cout << "Invalid entry! Please try again!" << endl;
+        cin.clear();
+        cin.ignore(100, '\n');
+        cin >> userChoice;
+   }
+     
+
+    
+}
+cout << 
+
+} while ()
+
+
+
    return 0;
 }
 
