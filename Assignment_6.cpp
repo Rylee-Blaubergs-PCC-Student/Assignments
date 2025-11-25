@@ -46,7 +46,7 @@ cout << "Welcome to my Coffee/Tea Vending Machine!" << endl << endl;
 
 // Declare input values
 int coins = 0, amountDrinks = 0;
-string choice = 'c';
+string choice = "c";
 
 
 // Declare output values
