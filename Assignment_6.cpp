@@ -58,29 +58,20 @@ double totalCost = 0;
 cout << fixed << setprecision(2);
 
 do {
-// prompt user for coins
-while (coins != 0) {
-   cout << "Enter coins - 5, 10, or 25 only: ";
-   cin >> coins;
+cout << "Enter coins - 5, 10, or 25 only: ";
+cin >> coins;
    if (coins == 5 || coins == 10 || coins == 25) {
       amountCoins += coins;
-      cout << "Enter coins - 5, 10, or 25 only: ";
-      cin >> coins;
-      
    } else {
      cout << "Invalid entry! Please try again!" << endl;
         cin.clear();
         cin.ignore(100, '\n');
         cin >> coins;
    }
-     
+} while (coins != 0);
 
-    
-}
-cout << 
-
-} while ();
-
+totalBalance = amountCoins // 100;
+cout << "Your balance is $" << totalBalance << endl << endl;
 
 
    return 0;
