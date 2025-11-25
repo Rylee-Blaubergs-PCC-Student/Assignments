@@ -46,7 +46,7 @@ cout << "Welcome to my Coffee/Tea Vending Machine!" << endl << endl;
 
 // Declare input values
 int coins = 0, amountDrinks = 0;
-string option = '';
+string option = 'c';
 
 
 // Declare output values
@@ -70,7 +70,7 @@ cin >> coins;
    }
 } while (coins != 0);
 
-totalBalance = amountCoins // 100;
+totalBalance = amountCoins / 100;
 cout << "Your balance is $" << totalBalance << endl << endl;
 
 
