@@ -71,7 +71,7 @@ while (coins != 0) {
      cout << "Invalid entry! Please try again!" << endl;
         cin.clear();
         cin.ignore(100, '\n');
-        cin >> userChoice;
+        cin >> coins;
    }
      
 
@@ -79,7 +79,7 @@ while (coins != 0) {
 }
 cout << 
 
-} while ()
+} while ();
 
 
 
